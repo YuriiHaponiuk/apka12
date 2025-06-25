@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F3F3F3"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/buttonLegitymacja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Legitymacja studencka"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonPrawoJazdy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prawo jazdy"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonDane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dane osobowe" />
+</LinearLayout>
